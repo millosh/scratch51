@@ -1,11 +1,14 @@
 actions = {
 	"test quiz": {
+		"type": "quiz",
 		"config": "test_quiz.json"
 	},
 	"evolution quiz": {
+		"type": "quiz",
 		"config": "evolution_quiz.json"
 	},
 	"mathematics quiz": {
+		"type": "quiz",
 		"config": "mathematics_quiz.json"
 	}
 }
