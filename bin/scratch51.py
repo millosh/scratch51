@@ -1,6 +1,7 @@
 import discord, random, asyncio, json, re, sys
 
-root_dir = "."
+root_dir = ".."
+bint_dir = "."
 conf_dir = root_dir + "/config"
 actions_fd = conf_dir + "/actions.json"
 messages_fd = conf_dir + "/messages.org"
