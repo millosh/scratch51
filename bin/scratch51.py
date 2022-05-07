@@ -1,4 +1,4 @@
-import discord, random, asyncio, json, re
+import discord, random, asyncio, json, re, sys
 
 root_dir = "."
 conf_dir = root_dir + "/config"
@@ -44,4 +44,4 @@ class MyClient(discord.Client):
 #        if message.content.startswith('$help'):
 
 client = MyClient()
-client.run('OTY5MTkyNzc2MDI3NzU0NTA2.Ymp1HA.x9n4v_SfvLZC3Csc5Y7s21rvA3E')
+client.run(sys.argv[1])
