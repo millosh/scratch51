@@ -1,0 +1,16 @@
+{
+	"questions": {
+		"Is evolution real?": {
+			"answer": "yes",
+			"points": "1"
+		},
+		"Are you sure?": {
+			"answer": "yes",
+			"points": "2"
+		},
+		"Really?": {
+			"answer": "yes",
+			"points": "3"
+		}
+	}
+}

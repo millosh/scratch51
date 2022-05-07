@@ -1,0 +1,16 @@
+{
+	"questions": {
+		"Question 1?": {
+			"answer": "a1",
+			"points": "1"
+		},
+		"Question 2?": {
+			"answer": "a2",
+			"points": "2"
+		},
+		"Question 3?": {
+			"answer": "a3",
+			"points": "3"
+		}
+	}
+}

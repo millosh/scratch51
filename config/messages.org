@@ -1,0 +1,10 @@
+- $help
+$quiz - Run an test quiz.
+$qevo - Run the evolution quiz.
+$qmath - RUn the math quiz.
+
+Expect further commands here. The developer is busy with what commands there shall be.
+
+- $test
+Test.
+
