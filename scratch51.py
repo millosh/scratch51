@@ -1,4 +1,4 @@
-import discord
+import discord, random, asyncio, json
 import random
 import asyncio
 
@@ -7,6 +7,10 @@ qas = {
     "question2": "a2",
     "question3": "a3",
 }
+
+root_dir = "."
+conf_dir = root_dir + "/config"
+actions_fd = conf_dir + "/actions.json"
 
 class MyClient(discord.Client):
     async def on_ready(self):
@@ -19,7 +23,8 @@ class MyClient(discord.Client):
         # we do not want the bot to reply to itself
         if message.author.id == self.user.id:
             return
-
+        
+        actions = json.load(actions.json)
         if message.content.startswith('$quiz1'):
             no_correct = 0
             no_questions = len(list(qas.keys()))

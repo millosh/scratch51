@@ -1,0 +1,11 @@
+actions = {
+	"test quiz": {
+		"config": "test_quiz.json"
+	},
+	"evolution quiz": {
+		"config": "evolution_quiz.json"
+	},
+	"mathematics quiz": {
+		"config": "mathematics_quiz.json"
+	}
+}
